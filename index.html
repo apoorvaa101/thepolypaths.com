@@ -18,12 +18,12 @@
 
     <!-- Google Fonts -->
     <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700;800&family=Playfair+Display:wght@700;900&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Caveat:wght@600;700&family=Montserrat:wght@300;400;600;700;800&family=Playfair+Display:wght@700;900&display=swap"
         rel="stylesheet">
 
     <style>
         :root {
-            --color-poly-primary: #A45B25;
+            --color-poly-primary: #FF7B25;
             --color-poly-secondary: #F8D783;
             --color-poly-cta-bg: #1A73E8;
             --color-poly-dark-blue: #002244;
@@ -40,6 +40,10 @@
 
         .font-accent {
             font-family: var(--font-accent);
+        }
+
+        .font-handwriting {
+            font-family: 'Caveat', cursive;
         }
 
         .text-poly-primary {
@@ -140,6 +144,10 @@
                 border-radius: 5px;
 
             }
+
+            .font-handwriting {
+                font-size: 1.6rem !important;
+            }
         }
 
         @media (max-width: 767px) {
@@ -169,7 +177,8 @@
                     <li class="nav-item"><a class="nav-link" href="#the-story">My Story</a></li>
                     <li class="nav-item"><a class="nav-link" href="#the-program">The Reset</a></li>
                 </ul>
-                <a href="https://thepolypaths.fillout.com/cohort-waitlist" target="_blank" class="btn btn-poly btn-sm">Apply for the Cohort</a>
+                <a href="https://thepolypaths.fillout.com/cohort-waitlist" target="_blank"
+                    class="btn btn-poly btn-sm">Apply for the Cohort</a>
             </div>
         </div>
     </nav>
@@ -177,9 +186,11 @@
     <!-- HERO SECTION -->
     <section class="container text-center py-5 mt-5">
         <h1 class="display-5 font-accent fw-bold mb-3">The PolyPath Reset</h1>
-        <p class="fs-4 text-poly-primary mb-2">For the ambitious and creative mom who is tired of surviving and ready to thrive</p>
-        <p class="fs-5 text-poly-secondary mb-4">A 6 Week Curated Cohort to Reset Your Life to Be Vibrantly Multifaceted</p>
-        
+        <p class="fs-4 text-poly-primary mb-2">For the ambitious mom who is tired of surviving and ready to
+            thrive</p>
+        <p class="fs-5 text-poly-secondary mb-4">A 6 Week Curated Cohort to Reset Your Life to Be Vibrantly Multifaceted
+        </p>
+
         <div class="d-flex flex-wrap justify-content-center gap-3 mb-5">
             <a href="https://thepolypaths.fillout.com/cohort-waitlist" target="_blank" class="btn btn-poly px-4 py-2">
                 Apply for the Cohort
@@ -192,68 +203,86 @@
             </div>
         </div>
 
+        <p class="font-handwriting my-4" style="color: #FF7B25; font-size: 2.2rem; font-weight: 700; line-height: 1.3;">
+            “You were never meant to shrink yourself into a single identity.”
+        </p>
+
         <p id="the-problem" class="lead mx-auto">Imagine a life where your career, your
             creative callings, your curiosity, and your relationships together have
             room to thrive. A life where you no longer feel torn between your “main thing” and the other pursuits that
             light you up.
-            This is the promise of a <span style="color: #a45b25;">PolyPath lifestyle</span> i.e. living as your fullest,
+            This is the promise of a <span style="color: #FF7B25;">PolyPath lifestyle</span> i.e. living as your
+            fullest,
             most authentic self without leaving
             parts of you
             behind.</p>
 
         <div class="mt-5 text-start mx-auto">
-            <h4 class="text-poly-secondary mb-3">Yet too often, high-achieving tech professionals feel:</h4>
+            <h4 class="text-poly-secondary mb-3">Yet too often, high-achieving moms feel:</h4>
 
             <div class="p-3 bg-dark border-start border-4 border-poly-primary rounded mb-3">
                 <h5 class="text-poly-primary fw-bold">There’s just not enough time!</h5>
-                <p>You find yourself spending most of your energy on urgent tasks. You are exhausted by the end of the day, and
-                    your art gets only
-                    your leftover energy.</p>
+                <p>You find yourself spending most of your energy on urgent tasks. You are exhausted by the end of the
+                    day, and
+                    the things that give you joy hardly get any energy.</p>
             </div>
 
             <div class="p-3 bg-dark border-start border-4 border-poly-primary rounded mb-3">
                 <h5 class="text-poly-primary fw-bold">There's more to life!</h5>
-                <p>Your job is important to you, but doesn't define you. You want to
-                    build a life around everything that brings you joy.</p>
+                <p>Your job is important to you, but it doesn't define you. You love being a mom, but you are so much
+                    more! You want to
+                    build a life around everything that you love.</p>
             </div>
 
             <div class="p-3 bg-dark border-start border-4 border-poly-primary rounded">
                 <h5 class="text-poly-primary fw-bold">Are there others like me?</h5>
-                <p id="the-story">You don't know other creative techies who also treat their art as a serious calling,
+                <p>You don't know other moms who feel a multifaceted pull like you,
                     leaving you
                     without the peer
-                    support you need to integrate both worlds.</p>
+                    support you need to integrate multiple worlds.</p>
             </div>
+
+
         </div>
     </section>
 
     <hr class="border-dark my-2" id="divederline">
 
     <!-- STORY SECTION -->
-    <section class="container py-5">
+    <section id="the-story" class="container py-5">
         <div class="row align-items-center g-4">
             <div class="col-md-6">
                 <img src="./img/pashmina.jpg" alt="Story Image" class="img-fluid-custom" id="pashmina">
             </div>
             <div class="col-md-6">
                 <h2 class="text-center text-poly-secondary font-accent fw-bold mb-5">I Know Exactly How This Feels!</h2>
-                <p>Hi! I am <a href="https://apoorvaadeshpande.com/">Apoorvaa Deshpande</a>. Growing up in a musical family in Mumbai, music was always central to my identity whether it was performing or composing. 
-                I also always loved mathematics which took me on a journey to an undergraduate degree in Math + Computer Science, 
-                and then to an Ivy League PhD program in Computer Science.</span></p>
-                <p>In 2018, when I paused my music to focus solely on my PhD, I thought I was doing “what it takes!”.
-                    But my research
-                    didn’t get better, and my creative spark slowly disappeared. Even though I graduated successfully, I left
-                    with a feeling of
-                    emptiness and fragmentation. <span style="color: #a45b25;">I learned the hard way that suppressing a
-                        core part of my identity is
-                        not the solution!</span></p>
-                <p>I then made it my a mission to uncover a better and vibrant way of living. I found several examples of prolific professionals who are also stellar artists and
+                <p>Hi! I am <span style="color: #FF7B25;">Apoorvaa Deshpande</span>. Being born in a musical
+                    family in Mumbai, I grew up singing, performing and composing. Music was central to my identity.
+                    I also grew up as a math-loving kid which took me on a journey to an undergraduate degree in Math +
+                    Computer Science,
+                    and then to an Ivy League PhD program in Computer Science.</p>
+                <p>I always lived a dual life acing my <a href="https://apoorvaadeshpande.com/tech"
+                        target="_blank">academics</a> and creating beautiful <a
+                        href="https://apoorvaadeshpande.com/music" target="_blank">music</a> alongside. But in 2018, I
+                    paused my music to focus solely on my PhD. I thought I was
+                    doing “what it takes!”.
+                    Surprisingly, my research didn’t get better, and my creative spark slowly disappeared. Even though I
+                    graduated
+                    successfully, I left
+                    with a feeling of emptiness and fragmentation.</p>
+
+                <blockquote class="font-handwriting my-3 ps-3 border-start border-3"
+                    style="color: #FF7B25; font-size: 1.55rem; font-weight: 700; line-height: 1.4; border-color: #FF7B25 !important;">
+                    “I learned the hard way that suppressing a core part of my identity is not the solution!”
+                </blockquote>
+                <p>I then made it my a mission to uncover a better and vibrant way of living. I found several examples
+                    of prolific professionals who are also stellar artists and
                     truly present
                     parents. I observed that they don't compartmentalize, but <span
-                        style="color: #a45b25;">strategically integrate</span> their diverse
+                        style="color: #FF7B25;">strategically integrate</span> their diverse
                     interests into a
                     coherent whole.</p>
-                
+
             </div>
         </div>
     </section>
@@ -264,20 +293,23 @@
     <section id="the-story" class="container py-2">
         <div class="row align-items-center g-4">
             <div class="col-md-6">
-                <h2 class="text-poly-secondary font-accent fw-bold mb-4">The Origin Story</h2>
-                <p>Over the years, a magnificent multifaceted life became my obsession. It has been a transformative journey of
+                <h2 class="text-poly-secondary font-accent fw-bold mb-4">The Origin of PolyPath Reset</h2>
+                <p>Over the years, a magnificent multifaceted life became my obsession. It has been a transformative
+                    journey of
                     self-reflection and
-                    self-discovery. I have been learning from the greats, experimenting with my life, and relentlessly iterating what
+                    self-discovery. I have been learning from the greats, experimenting with my life, and relentlessly
+                    iterating what
                     works.</p>
-                <p>Today I live a vibrant and intentional life where all parts of me thrive. I am a Tech Lead at Google, a
-                    performing musician,
-                    a somewhat caffeinated mom of two boys :D, a writer and now an entrepreneur.</p>
+                <p>Today I live a vibrant and intentional life where all parts of me thrive. I am a Tech Lead at Google
+                    solving hard problems in AI privacy at scale,
+                    I am an international musician with works that have garnered millions of views,
+                    I am a somewhat caffeinated mom of two boys :D, a writer and now an entrepreneur.</p>
                 <p>What I missed most in this journey was a community and a dedicated space to discuss challenges in a
                     multifaceted
                     journey. That's why I developed the <span style="color: #f8d783;">PolyPath Reset</span>, a unique
                     cohort program specifically designed
                     for creative tech
-                    professionals – to design your life <span style="color: #a45b25;">holistically</span>, with an
+                    professionals – to design your life <span style="color: #FF7B25;">holistically</span>, with an
                     intimate group that truly gets it!</p>
             </div>
             <div class="col-md-6">
@@ -290,87 +322,159 @@
     <hr class="border-dark my-2" id="divederline">
 
     <!-- Course Overview-->
-    <section class="container py-5">
-        <h2 class="text-center text-poly-secondary font-accent fw-bold mb-5">The PolyPath Reset</h2>
+    <section id="the-program" class="container py-5">
+        <h2 class="text-center text-poly-secondary font-accent fw-bold mb-4">The PolyPath Reset Methodology</h2>
         <div class="row align-items-center g-4">
             <div class="col-md-12">
-                <img src="./img/course-overview.png" alt="Story Image" class="img-fluid-custom" id="polypathreset">
+                <img src="./img/course-overview.png" alt="Course Overview" class="img-fluid-custom" id="polypathreset">
             </div>
         </div>
+
+        <!-- Button-style Cohort Details -->
     </section>
 
-    <section class="py-1">
+    <section class="py-2">
+
         <div class="container">
-            <h2 class="section-title">
-                The PolyPath Reset is a six-week curated cohort that guides you through:
-            </h2>
+            <div class="text-center mb-5">
+                <h2 class="section-title mb-2">
+                    Here's How the Six-Week Cohort Unfolds
+                </h2>
+                <p class="text-light opacity-75 mx-auto" style="max-width: 620px; font-size: 1.05rem;">
+                    Every week we work on one shift with real tools to make it one fully integrated life.
+                </p>
+            </div>
+
+            <div class="d-flex flex-wrap justify-content-center align-items-center gap-2 gap-md-3 mt-2 mb-5">
+                <span class="cohort-badge-item">
+                    <span class="badge-dot-live">●</span> Live Virtual Sessions
+                </span>
+                <span class="cohort-badge-item">
+                    <span>👥</span> 5-7 Moms
+                </span>
+                <span class="cohort-badge-item">
+                    <span>⏱️</span> 90-Minute Weekly Commitment
+                </span>
+            </div>
 
             <div class="row g-4">
-                <!-- Row 1 -->
+                <!-- Week 1 -->
                 <div class="col-md-4">
-                    <div class="card-custom">
-                        <h4 class="card-title">Week 1: Rethink</h4>
-                        <p class="card-text">Uncover limiting beliefs around success, ambition and what it takes to
-                            thrive.
-                        </p>
+                    <div class="card-custom card-wk-1">
+                        <div>
+                            <div class="wk-header">
+                                <h4 class="card-title">Rethink</h4>
+                                <span class="wk-badge">Week 01</span>
+                            </div>
+                            <p class="card-text">
+                                Uncover limiting beliefs around success, ambition and what it takes to thrive.
+                            </p>
+                        </div>
+                        <div class="tool-tag-wrap">
+                            <span class="tool-tag">Mindset Shift Pause</span>
+                        </div>
                     </div>
                 </div>
 
+                <!-- Week 2 -->
                 <div class="col-md-4">
-                    <div class="card-custom">
-                        <h4 class="card-title">Week 2: Rediscover</h4>
-                        <p class="card-text">Learn a holistic framework to capture every meaningful aspect of your life.
-                        </p>
+                    <div class="card-custom card-wk-2">
+                        <div>
+                            <div class="wk-header">
+                                <h4 class="card-title">Rediscover</h4>
+                                <span class="wk-badge">Week 02</span>
+                            </div>
+                            <p class="card-text">
+                                Learn a holistic framework to capture every meaningful aspect of your life.
+                            </p>
+                        </div>
+                        <div class="tool-tag-wrap">
+                            <span class="tool-tag">PATH & PARK Map</span>
+                        </div>
                     </div>
                 </div>
 
+                <!-- Week 3 -->
                 <div class="col-md-4">
-                    <div class="card-custom">
-                        <h4 class="card-title">Week 3: Re-envision</h4>
-                        <p class="card-text">Create a clear vision of your ideal integrated life with concrete,
-                            actionable
-                            goals.</p>
+                    <div class="card-custom card-wk-3">
+                        <div>
+                            <div class="wk-header">
+                                <h4 class="card-title">Re-envision</h4>
+                                <span class="wk-badge">Week 03</span>
+                            </div>
+                            <p class="card-text">
+                                Create a clear vision of your ideal integrated life with concrete, actionable goals.
+                            </p>
+                        </div>
+                        <div class="tool-tag-wrap">
+                            <span class="tool-tag">2030 Path Pie & Gourmet Goals </span>
+                        </div>
                     </div>
                 </div>
 
-                <!-- Row 2 -->
+                <!-- Week 4 -->
                 <div class="col-md-4">
-                    <div class="card-custom">
-                        <h4 class="card-title">Week 4: Rebuild</h4>
-                        <p class="card-text">Develop personalized systems and tools to bridge the gap between your
-                            current
-                            reality and ideal life.</p>
+                    <div class="card-custom card-wk-4">
+                        <div>
+                            <div class="wk-header">
+                                <h4 class="card-title">Rebuild</h4>
+                                <span class="wk-badge">Week 04</span>
+                            </div>
+                            <p class="card-text">
+                                Develop personalized systems and tools to bridge the gap between your current reality
+                                and ideal life.
+                            </p>
+                        </div>
+                        <div class="tool-tag-wrap">
+                            <span class="tool-tag">MEET your Goals Diagnostic</span>
+                        </div>
                     </div>
                 </div>
 
+                <!-- Week 5 -->
                 <div class="col-md-4">
-                    <div class="card-custom">
-                        <h4 class="card-title">Week 5: Reconnect</h4>
-                        <p class="card-text">Identify your diverse superpowers and discover connections between your
-                            interests.</p>
+                    <div class="card-custom card-wk-5">
+                        <div>
+                            <div class="wk-header">
+                                <h4 class="card-title">Reconnect</h4>
+                                <span class="wk-badge">Week 05</span>
+                            </div>
+                            <p class="card-text">
+                                Identify your diverse superpowers and discover unexpected connections between them.
+                            </p>
+                        </div>
+                        <div class="tool-tag-wrap">
+                            <span class="tool-tag">TAP into your Superpowers</span>
+                        </div>
                     </div>
                 </div>
 
+                <!-- Week 6 -->
                 <div class="col-md-4">
-                    <div class="card-custom">
-                        <h4 class="card-title">Week 6: Reclaim</h4>
-                        <p class="card-text">Learn to effectively communicate and leverage your unique strengths.</p>
+                    <div class="card-custom card-wk-6">
+                        <div>
+                            <div class="wk-header">
+                                <h4 class="card-title">Reclaim</h4>
+                                <span class="wk-badge">Week 06</span>
+                            </div>
+                            <p class="card-text">
+                                Learn to effectively communicate and leverage your unique strengths.
+                            </p>
+                        </div>
+                        <div class="tool-tag-wrap">
+                            <span class="tool-tag">Personalized PolyPath Pitch</span>
+                        </div>
                     </div>
                 </div>
             </div>
 
             <div class="row g-4" id="seccionss">
-                <!-- Row 1 -->
                 <div class="col-md-12">
-                    <p class="sessionn text-center" style="color: #f8d783; font-style: normal;">Each 90 minute session
-                        is
-                        structured to cover the topic
-                        in depth paired with
-                        reflection exercises that
-                        drive it
-                        home for you. The
-                        session includes an open discussion with your cohort, all of whom are on a similar journey as
-                        you. I have seen participants form lasting friendships through these cohorts.
+                    <p class="sessionn text-center"
+                        style="color: #f8d783; font-style: normal; font-size: 1.05rem; max-width: 860px; margin: 0 auto; line-height: 1.7;">
+                        Each 90-minute session pairs the topic in depth with signature exercises that drive it home for
+                        you — plus an open discussion with a cohort that is hand-picked for you.
+                        Participants form lasting friendships through these cohorts.
                     </p>
                 </div>
             </div>
@@ -379,251 +483,753 @@
     </section>
     <style>
         #seccionss {
-            padding-top: 30px;
-        }
-
-        p.session.text-center {
-            color: #f8d783 !important;
+            padding-top: 35px;
         }
 
         .section-title {
             color: #4da3ff;
             text-align: center;
-            margin-bottom: 40px;
-            font-size: 1.5rem;
+            font-size: 1.75rem;
             font-weight: 600;
             font-family: 'Playfair Display', serif;
+        }
+
+        .cohort-badge-item {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 0.9rem;
+            font-weight: 600;
+            color: #f8d783;
+            background: rgba(248, 215, 131, 0.08);
+            border: 1px solid rgba(248, 215, 131, 0.3);
+            border-radius: 50px;
+            padding: 8px 18px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+            transition: transform 0.2s ease, background 0.2s ease;
+        }
+
+        .cohort-badge-item:hover {
+            transform: translateY(-2px);
+            background: rgba(248, 215, 131, 0.15);
+            border-color: rgba(248, 215, 131, 0.5);
+        }
+
+        .badge-dot-live {
+            color: #ff5533;
+            font-size: 11px;
+            animation: pulse-dot 2s infinite;
+        }
+
+        @keyframes pulse-dot {
+            0% {
+                opacity: 1;
+            }
+
+            50% {
+                opacity: 0.4;
+            }
+
+            100% {
+                opacity: 1;
+            }
         }
 
         .card-custom {
             background-color: #070c14;
             border: 1px solid #0e1723;
-            border-radius: 12px;
-            padding: 25px;
+            border-top: 3px solid #E2632B;
+            border-radius: 14px;
+            padding: 24px;
             height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
             transition: all 0.3s ease;
+            position: relative;
         }
 
         .card-custom:hover {
             background-color: #0d1a2a;
             transform: translateY(-5px);
+            box-shadow: 0 10px 25px rgba(0, 0, 0, 0.4);
+        }
+
+        .card-custom.card-wk-1,
+        .card-custom.card-wk-5 {
+            border-top-color: #FF7B25;
+        }
+
+        .card-custom.card-wk-2,
+        .card-custom.card-wk-6 {
+            border-top-color: #F8D783;
+        }
+
+        .card-custom.card-wk-3,
+        .card-custom.card-wk-4 {
+            border-top-color: #4C82F2;
+        }
+
+        .wk-header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 12px;
         }
 
         .card-title {
-            color: #d2691e;
+            color: #FF7B25;
             font-weight: 700;
-            margin-bottom: 15px;
             font-size: 1.25rem;
+            margin-bottom: 0;
+        }
+
+        .wk-badge {
+            font-size: 0.72rem;
+            font-weight: 700;
+            letter-spacing: 0.1em;
+            color: #8890AC;
+            background: rgba(255, 255, 255, 0.06);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            padding: 3px 8px;
+            border-radius: 6px;
         }
 
         .card-text {
             color: #d4d4d4;
-            font-size: 1rem;
+            font-size: 0.95rem;
             line-height: 1.6;
+            margin-bottom: 16px;
         }
 
-        /* .container {
-            max-width: 1100px;
-        } */
+        .tool-tag-wrap {
+            margin-top: auto;
+            padding-top: 8px;
+        }
+
+        .tool-tag {
+            display: inline-flex;
+            align-items: center;
+            gap: 6px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            color: #8FB0F7;
+            background: rgba(76, 130, 242, 0.10);
+            border: 1px solid rgba(76, 130, 242, 0.25);
+            padding: 6px 12px;
+            border-radius: 50px;
+        }
 
         @media (max-width: 767px) {
             .card-custom {
                 margin-bottom: 20px;
             }
+
+            .section-title {
+                font-size: 1.4rem;
+            }
         }
     </style>
 
 
-    <hr class="border-dark my-2" id="divederline">
-    
+    <!-- ============ WHAT'S INCLUDED / THE STACK ============ -->
     <section class="container py-5">
-    <div class="row justify-content-center">
-        <div class="col-lg-8 col-md-10">
-            <div class="p-4 p-md-5 rounded-4" style="background-color: #070c14; border: 1px solid #1a73e84d;">
-                <h2 class="font-accent fw-bold mb-4 text-poly-primary">You will walk away from the cohort with —</h2>
-                
-                <ul class="list-unstyled">
-                    <li class="d-flex align-items-start mb-3">
-                        <span class="me-3" style="color: #1A73E8; font-size: 1.5rem;">&#10003;</span>
-                        <p class="fs-5 mb-0">More time to actually do the things that light you up</p>
-                    </li>
-                    <li class="d-flex align-items-start mb-3">
-                        <span class="me-3" style="color: #1A73E8; font-size: 1.5rem;">&#10003;</span>
-                        <p class="fs-5 mb-0">Clarity on your ideal life and the tools to get there</p>
-                    </li>
-                    <li class="d-flex align-items-start">
-                        <span class="me-3" style="color: #1A73E8; font-size: 1.5rem;">&#10003;</span>
-                        <p class="fs-5 mb-0">Courage to be unapologetically you</p>
-                    </li>
-                </ul>
+        <div class="row justify-content-center">
+            <div class="col-lg-10 col-md-12">
+                <div class="stack-box">
+                    <div class="text-center mb-4">
+                        <h2 class="font-accent fw-bold" style="color: #FF7B25; font-size: 2.2rem;">Here's Everything You
+                            Get</h2>
+                    </div>
+                    <ul class="stack-list">
+                        <li>
+                            <span class="stack-icon">💬</span>
+                            <div>
+                                <b>6 Live Group Sessions</b>
+                                <span class="desc">90 minutes weekly with Apoorvaa, capped at 5–7 moms</span>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="stack-icon">⚙️</span>
+                            <div>
+                                <b>Personalized WorkBook for Keeps</b>
+                                <span class="desc">Built around your actual reflections, not a generic template</span>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="stack-icon">🤝</span>
+                            <div>
+                                <b>Lifetime Community Access</b>
+                                <span class="desc">A community that gets it, long after week six</span>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="stack-icon">🎞️</span>
+                            <div>
+                                <b>Recordings &amp; Materials</b>
+                                <span class="desc">Every session, yours to revisit anytime</span>
+                            </div>
+                        </li>
+                    </ul>
+                    <p class="stack-tagline">
+                        More time &amp; headspace. Real clarity. Courage to be unapologetically YOU.
+                    </p>
+                </div>
+
+                <!-- Apply to Cohort Button -->
+                <div class="d-flex flex-wrap justify-content-center gap-3 mt-5">
+                    <a href="https://thepolypaths.fillout.com/cohort-waitlist" target="_blank"
+                        class="btn btn-poly px-5 py-2 fs-5">
+                        Apply for the Cohort
+                    </a>
+                </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 
-<hr class="border-dark my-2" id="divederline">
+    <style>
+        .stack-box {
+            background:
+                radial-gradient(ellipse 500px 300px at 15% 0%, rgba(255, 123, 37, 0.14), transparent 60%),
+                radial-gradient(ellipse 500px 300px at 85% 100%, rgba(76, 130, 242, 0.14), transparent 60%),
+                linear-gradient(165deg, rgba(247, 241, 228, 0.06), rgba(247, 241, 228, 0.02));
+            border: 1px solid rgba(247, 241, 228, 0.10);
+            border-radius: 24px;
+            padding: 48px 40px;
+        }
+
+        .stack-list {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 18px 24px;
+            list-style: none;
+            margin: 0 0 32px;
+            padding: 0;
+        }
+
+        @media (max-width: 768px) {
+            .stack-box {
+                padding: 32px 20px;
+            }
+
+            .stack-list {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .stack-list li {
+            display: flex;
+            gap: 16px;
+            align-items: flex-start;
+            background: rgba(247, 241, 228, 0.03);
+            border: 1px solid rgba(247, 241, 228, 0.08);
+            border-radius: 14px;
+            padding: 16px 18px;
+            transition: transform 0.2s ease, background 0.2s ease;
+        }
+
+        .stack-list li:hover {
+            background: rgba(247, 241, 228, 0.06);
+            transform: translateY(-2px);
+        }
+
+        .stack-list li b {
+            color: #f8f9fa;
+            font-weight: 700;
+            display: block;
+            margin-bottom: 3px;
+            font-size: 15px;
+        }
+
+        .stack-list li span.desc {
+            color: #C7CCE2;
+            font-size: 13.5px;
+            line-height: 1.4;
+            display: block;
+        }
+
+        .stack-icon {
+            flex: none;
+            width: 40px;
+            height: 40px;
+            border-radius: 12px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 18px;
+        }
+
+        .stack-list li:nth-child(1) .stack-icon,
+        .stack-list li:nth-child(4) .stack-icon {
+            background: rgba(255, 123, 37, 0.16);
+            color: #FF7B25;
+        }
+
+        .stack-list li:nth-child(2) .stack-icon {
+            background: rgba(224, 178, 78, 0.16);
+            color: #E0B24E;
+        }
+
+        .stack-list li:nth-child(3) .stack-icon {
+            background: rgba(76, 130, 242, 0.16);
+            color: #8FB0F7;
+        }
+
+        .stack-tagline {
+            text-align: center;
+            font-family: 'Playfair Display', serif;
+            font-style: italic;
+            font-weight: 600;
+            font-size: 20px;
+            color: var(--color-poly-secondary);
+            border-top: 1px solid rgba(247, 241, 228, 0.12);
+            padding-top: 24px;
+            margin-bottom: 0;
+        }
+    </style>
+
+    <hr class="border-dark my-2" id="divederline">
 
     <!-- TESTIMONIALS SECTION -->
-<section class="container py-5">
-    <h2 class="font-accent fw-bold text-center mb-5" style="color: #1A73E8;">What participants have to say —</h2>
+    <section class="container py-5">
+        <h2 class="font-accent fw-bold text-center mb-5" style="color: #1A73E8;">What participants have to say —</h2>
 
-    <div class="row g-4 mb-5">
-        
-        <div class="col-md-6">
-            <div class="testimonial-card h-100" style="background: rgba(26, 115, 232, 0.1); border: 1px solid #1A73E8;">
-                <p class="fst-italic mb-3">"Before this cohort, I rarely gave myself the space to pause and reflect on where my energy was actually going. Six weeks of the cohort was a true investment in myself, allowing me to clear the noise and tune into my own personality traits. The exercises helped me gain clarity on why certain things are working in my life and where I need to focus next. Additionally, our unfiltered and empowering conversations helped me realize I am not alone in these challenges. This experience has shown me how to prioritize my multifaceted life more effectively."</p>
-                <h5 class="text-poly-secondary mb-0">Praveena Kuppa</h5>
-                <small class="opacity-75">Distinguished architect, Walmart | Mom of 2 | Carnatic Vocalist</small>
+        <!-- First 6 Testimonials -->
+        <div class="row g-4 mb-4">
+
+            <div class="col-md-6">
+                <div class="testimonial-card h-100"
+                    style="background: rgba(26, 115, 232, 0.1); border: 1px solid #1A73E8;">
+                    <p class="fst-italic mb-3">"Before this cohort, I rarely gave myself the space to pause and reflect
+                        on where my energy was actually going. Six weeks of the cohort was a true investment in myself,
+                        allowing me to clear the noise and tune into my own personality traits. The exercises helped me
+                        gain clarity on why certain things are working in my life and where I need to focus next.
+                        Additionally, our unfiltered and empowering conversations helped me realize I am not alone in
+                        these challenges. This experience has shown me how to prioritize my multifaceted life more
+                        effectively."</p>
+                    <h5 class="text-poly-secondary mb-0">Praveena Kuppa</h5>
+                    <small class="opacity-75">Distinguished architect, Walmart | Mom of 2 | Carnatic Vocalist</small>
+                </div>
             </div>
-        </div>
-        <div class="col-md-6">
-            <div class="testimonial-card h-100" style="background: rgba(26, 115, 232, 0.1); border: 1px solid #1A73E8;">
-                <p class="fst-italic mb-3">"Connecting with other multifaceted moms in the exact same boat was incredibly validating, and the frameworks are what truly rewired my thinking. But the biggest turning point for me was the ‘2030 Path Pie’ exercise; it gave me such a profound reality check about what I genuinely want from life that I decided I couldn't wait until 2030 to make it happen. It gave me the conviction to take a leap of faith, to leave my tech job at Google, and step fully into my other passions. If you are feeling misaligned in your career and need the courage and systems to design a life that actually fits you, you need to be in this room."</p>
-                <h5 class="text-poly-secondary mb-0">Pranjali Ganoo</h5>
-                <small class="opacity-75">Creative Writer | Dancer | Author | Mom of 2 | ex Googler</small>
+            <div class="col-md-6">
+                <div class="testimonial-card h-100"
+                    style="background: rgba(26, 115, 232, 0.1); border: 1px solid #1A73E8;">
+                    <p class="fst-italic mb-3">"Connecting with other multifaceted moms in the exact same boat was
+                        incredibly validating, and the frameworks are what truly rewired my thinking. But the biggest
+                        turning point for me was the ‘2030 Path Pie’ exercise; it gave me such a profound reality check
+                        about what I genuinely want from life that I decided I couldn't wait until 2030 to make it
+                        happen. It gave me the conviction to take a leap of faith, to leave my tech job at Google, and
+                        step fully into my other passions. If you are feeling misaligned in your career and need the
+                        courage and systems to design a life that actually fits you, you need to be in this room."</p>
+                    <h5 class="text-poly-secondary mb-0">Pranjali Ganoo</h5>
+                    <small class="opacity-75">Creative Writer | Dancer | Author | Mom of 2 | ex Googler</small>
+                </div>
             </div>
+
+            <div class="col-md-6">
+                <div class="testimonial-card h-100"
+                    style="background: rgba(255, 123, 37, 0.05); border: 1px solid #FF7B25;">
+                    <p class="fst-italic mb-3">"I was drawn to this program because I was questioning my inclination and
+                        ability to pursue my many interests. I'm walking away with renewed confidence that these
+                        pursuits are core to who I am. The systematic approach and structure of the course truly stood
+                        out to me. The exercises helped me deeply reflect on my goals and identify the roadblocks in my
+                        head. My biggest takeaway is that there is a way to organize and achieve all my interests. This
+                        is exactly what you need if you're a multifaceted achiever who wants to stop questioning your
+                        passions and start thriving with them!"</p>
+                    <h5 class="text-poly-secondary mb-0">Vaishnavi Kattukolu</h5>
+                    <small class="opacity-75">ML engineer, Amex | Portfolio manager | Model | Investor | Dancer</small>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="testimonial-card h-100"
+                    style="background: rgba(255, 123, 37, 0.05); border: 1px solid #FF7B25;">
+                    <p class="fst-italic mb-3">"When I first came across Apoorvaa's Substack, it really made me stop in
+                        my tracks. I was hooked on to the the idea that you can excel at multiple things, especially
+                        given that I grew up thinking that we need to 'specialize in one thing'; so I decided to sign up
+                        for the cohort. The cohort session used to be the best, most energizing hour of my week. The
+                        program helped me to challenge my core beliefs and truly evolve, moving past what was stopping
+                        me and getting to the actionable next step. I would recommend this to anyone who has struggled
+                        with expressing themselves in different ways, and are looking for the right approach and
+                        community to embrace their diverse pursuits!"</p>
+                    <h5 class="text-poly-secondary mb-0">Sagar Thakur</h5>
+                    <small class="opacity-75">Director, Business Strategy, OneTrust | Musician | Dad</small>
+                </div>
+            </div>
+
+            <div class="col-md-6">
+                <div class="testimonial-card h-100"
+                    style="background: rgba(26, 115, 232, 0.1); border: 1px solid #1A73E8;">
+                    <p class="fst-italic mb-3">"I never would have carved out the time to question my own deeply held
+                        beliefs if it weren't for this cohort. One of the biggest revelations for me was getting a
+                        reality check through the PATH exercises and how to execute on my creative pursuits. Mapping out
+                        my 2030 vision completely shifted my perspective on how my different interests influence one
+                        another. This is a brilliant experience for any multifaceted individual who wants to stop just
+                        dreaming about a vibrant life and actually build the mental frameworks to live it."</p>
+                    <h5 class="text-poly-secondary mb-0">Manasi Deshmukh</h5>
+                    <small class="opacity-75">AI SWE, Roku | Mom of 2 | Theater | Building a climate venture</small>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="testimonial-card h-100"
+                    style="background: rgba(26, 115, 232, 0.1); border: 1px solid #1A73E8;">
+                    <p class="fst-italic mb-3">"I want to give a big shout out to Apoorvaa for building this program.
+                        It's truly amazing the thought that she has put in to help aspiring or currently PolyPaths
+                        connect and grow. I knew walking into it there would be a lot of value, but the program
+                        absolutely exceeded my expectations. To me, it's definitely made me reflect deeper as to who I
+                        am and given me the discipline and the tools to be intentional in my life, assess myself, and
+                        grow. I know this is an evolving thing, so I will keep coming back to the tools and frameworks
+                        from the program, and I am excited to walk my 'path to polypath.'"</p>
+                    <h5 class="text-poly-secondary mb-0">Gayathri Krishnamurthy</h5>
+                    <small class="opacity-75">Product Marketing Leader, Level.ai | Carnatic Vocals & Veena | Mom</small>
+                </div>
+            </div>
+
         </div>
 
-        <div class="col-md-6">
-            <div class="testimonial-card h-100" style="background: rgba(164, 91, 37, 0.05); border: 1px solid #A45B25;">
-                <p class="fst-italic mb-3">"I was drawn to this program because I was questioning my inclination and ability to pursue my many interests. I'm walking away with renewed confidence that these pursuits are core to who I am. The systematic approach and structure of the course truly stood out to me. The exercises helped me deeply reflect on my goals and identify the roadblocks in my head. My biggest takeaway is that there is a way to organize and achieve all my interests. This is exactly what you need if you're a multifaceted achiever who wants to stop questioning your passions and start thriving with them!"</p>
-                <h5 class="text-poly-secondary mb-0">Vaishnavi Kattukolu</h5>
-                <small class="opacity-75">ML engineer, Amex | Portfolio manager | Model | Investor | Dancer</small>
-            </div>
-        </div>
-        <div class="col-md-6">
-            <div class="testimonial-card h-100" style="background: rgba(164, 91, 37, 0.05); border: 1px solid #A45B25;">
-                <p class="fst-italic mb-3">"When I first came across Apoorvaa's Substack, it really made me stop in my tracks. I was hooked on to the the idea that you can excel at multiple things, especially given that I grew up thinking that we need to 'specialize in one thing'; so I decided to sign up for the cohort. The cohort session used to be the best, most energizing hour of my week. The program helped me to challenge my core beliefs and truly evolve, moving past what was stopping me and getting to the actionable next step. I would recommend this to anyone who has struggled with expressing themselves in different ways, and are looking for the right approach and community to embrace their diverse pursuits!"</p>
-                <h5 class="text-poly-secondary mb-0">Sagar Thakur</h5>
-                <small class="opacity-75">Director, Business Strategy, OneTrust | Musician | Dad</small>
-            </div>
-        </div>
-
-        <div class="col-md-6">
-            <div class="testimonial-card h-100" style="background: rgba(26, 115, 232, 0.1); border: 1px solid #1A73E8;">
-                <p class="fst-italic mb-3">"I never would have carved out the time to question my own deeply held beliefs if it weren't for this cohort. One of the biggest revelations for me was getting a reality check through the PATH exercises and how to execute on my creative pursuits. Mapping out my 2030 vision completely shifted my perspective on how my different interests influence one another. This is a brilliant experience for any multifaceted individual who wants to stop just dreaming about a vibrant life and actually build the mental frameworks to live it."</p>
-                <h5 class="text-poly-secondary mb-0">Manasi Deshmukh</h5>
-                <small class="opacity-75">AI SWE, Roku | Mom of 2 | Theater | Building a climate venture</small>
-            </div>
-        </div>
-        <div class="col-md-6">
-            <div class="testimonial-card h-100" style="background: rgba(26, 115, 232, 0.1); border: 1px solid #1A73E8;">
-                <p class="fst-italic mb-3">"I want to give a big shout out to Apoorvaa for building this program. It's truly amazing the thought that she has put in to help aspiring or currently PolyPaths connect and grow. I knew walking into it there would be a lot of value, but the program absolutely exceeded my expectations. To me, it's definitely made me reflect deeper as to who I am and given me the discipline and the tools to be intentional in my life, assess myself, and grow. I know this is an evolving thing, so I will keep coming back to the tools and frameworks from the program, and I am excited to walk my 'path to polypath.'"</p>
-                <h5 class="text-poly-secondary mb-0">Gayathri Krishnamurthy</h5>
-                <small class="opacity-75">Product Marketing Leader, Level.ai | Carnatic Vocals & Veena | Mom</small>
-            </div>
-        </div>
-
-        <div class="col-md-6">
-            <div class="testimonial-card h-100" style="background: rgba(164, 91, 37, 0.05); border: 1px solid #A45B25;">
-                <p class="fst-italic mb-3">"It was a truly valuable experience getting to know like-minded folks and finding a community rooted in exploring a multifaceted life. I found the tools to be very helpful in organizing my goals and managing all my interests without getting overwhelmed. The impact of the exercises will definitely last beyond the duration of the workshop and I recommend it as a stepping stone to anyone looking to explore the polypath life!"</p>
-                <h5 class="text-poly-secondary mb-0">Tanvi Gupta</h5>
-                <small class="opacity-75">Engineering manager | Cloud Chef | Data researcher | Tango artist</small>
-            </div>
-        </div>
-        <div class="col-md-6">
-            <div class="testimonial-card h-100" style="background: rgba(164, 91, 37, 0.05); border: 1px solid #A45B25;">
-                <p class="fst-italic mb-3">"I was attracted to this program because of its unique design for folks like me. The workbooks and exercises were very helpful in thinking about my life in a more holistic way. The group created a supportive space for open and honest discussions about our struggles. The program helped me be more intentional about time allocation and identifying precise goals for each of my paths. This cohort is for anyone who wants to be more intentional about juggling all of their passions."</p>
-                <h5 class="text-poly-secondary mb-0">Saurabh Kumar</h5>
-                <small class="opacity-75">Research Scientist, Google Deepmind | Performing artist – Tabla</small>
-            </div>
-        </div>
-
-        <div class="col-md-6">
-            <div class="testimonial-card h-100" style="background: rgba(26, 115, 232, 0.1); border: 1px solid #1A73E8;">
-                <p class="fst-italic mb-3">"When I heard Apoorvaa's talk, I immediately connected with the PolyPath approach and knew that this program was a must-do for me. The sessions were incredibly insightful and really exercised my brain. I especially loved the visual frameworks we used to get a clear picture of where I am and where I want to go. Hearing from others in different phases of life gave me so much hope for the future. I now have the tools to focus my energy and reduce the resistance I feel when pursuing my goals. I would recommend this to anyone who is a high-achiever and wants to find a way to integrate all their different passions, especially as they navigate the different phases of life."</p>
-                <h5 class="text-poly-secondary mb-0">Monica Shete</h5>
-                <small class="opacity-75">Networking engineer, Microsoft | Illustration artist | Fitness enthusiast</small>
-            </div>
-        </div>
-        
-        <div class="col-md-6">
-            <div class="testimonial-card h-100" style="background: rgba(26, 115, 232, 0.1); border: 1px solid #1A73E8;">
-                <p class="fst-italic mb-3">"Hearing how other creative tech moms navigate similar challenges and the connections has a lasting impact on me. I realized that my med-tech career, motherhood, and passion for dance are all vital expressions of my 'distributed identity.' The cohort's frameworks helped me stop overthinking the 'mindless chores' and actually execute on the things that make me feel fulfilled, like finally joining the Kuchipudi dance class. I learned tools to make time for what I want by being intentional."</p>
-                <h5 class="text-poly-secondary mb-0">Sravya Jangareddy</h5>
-                <small class="opacity-75">MedTech Researcher, J&J | Dancer | Mom to toddler</small>
-            </div>
-        </div>
-
-        <div class="col-md-6">
-            <div class="testimonial-card h-100" style="background: rgba(164, 91, 37, 0.05); border: 1px solid #A45B25;">
-                <p class="fst-italic mb-3">"When Apoorvaa first told me about this cohort, I was immediately sold on the concept; I was looking to design a life that integrates my tech and music and the cohort helped me do exactly that. I loved the frameworks and analogies in each session. The visual tools especially stood out to me, and they made it seamless to do the exercises. The discussions with my cohort were super interesting, I especially remember the Rebuild session where my fellow participant's challenges were completely relatable and applicable for me! Overall, I learnt a lot from the cohort and I will definitely apply it to my day-to-day going forward."</p>
-                <h5 class="text-poly-secondary mb-0">Anand Bhoraskar</h5>
-                <small class="opacity-75">ML SWE | Musician | Partner</small>
-            </div>
-        </div>
-        <div class="col-md-6">
-            <div class="testimonial-card h-100" style="background: rgba(164, 91, 37, 0.05); border: 1px solid #A45B25;">
-                <p class="fst-italic mb-3">"One of my main learnings was realizing the fundamental philosophy and value of why I pursue the things I do. I learnt many helpful mindset shifts to think about my life differently. With the tools and frameworks that we discussed, I feel more equipped to handle all my paths. Plus, I felt really connected across my different paths, and ultimately to who I am!"</p>
-                <h5 class="text-poly-secondary mb-0">Hari</h5>
-                <small class="opacity-75">Hardware engineer, Nvidia | Performing artist – Mridangam | Photographer</small>
-            </div>
-        </div>
-
-    </div>
-
-    <div class="row g-4 justify-content-center">
-         <div class="col-md-5">
-            <img src="./img/PP-moms-website.png" alt="Moms Cohort" class="img-fluid-custom shadow">
-        </div>
-        <div class="col-md-5">
-            <img src="./img/PolyPaths-Cohort-1.png" alt="Cohort Group 1" class="img-fluid-custom shadow">
-        </div>
-        <div class="col-md-5">
-            <img src="./img/cohort-2.jpg" alt="Cohort Group 2" class="img-fluid-custom shadow">
-        </div>
-    </div>
-</section>
-
-<style>
-    /* Adjusting the card height for the grid layout */
-    .testimonial-card {
-        background: rgb(74 95 159 / 15%); /* Slightly more subtle background */
-        border: 1px solid #4a5f9f4d;
-        border-radius: 1rem;
-        padding: 1.5rem;
-        color: #fff;
-        height: auto !important; /* Allow cards to resize based on content */
-        transition: transform 0.3s ease;
-    }
-    .testimonial-card:hover {
-        transform: translateY(-5px);
-        background: rgb(74 95 159 / 25%);
-    }
-</style>
-
-    <!-- APPLY SECTION -->
-  <section id="apply" class="container py-5">
-    <div class="row justify-content-center">
-        <div class="col-lg-7 col-md-10">
-            <div class="text-center p-4 p-md-5 rounded-4" style="background-color: #002244; border: 1px solid #1a73e8;">
-                <h2 class="font-accent text-white fw-bold mb-4">Join the PolyPaths Cohort Waitlist</h2>
-                
-                <div class="mb-4">
-                    <a href="https://thepolypaths.fillout.com/cohort-waitlist" target="_blank" class="btn btn-poly btn-lg px-5">Apply for the Cohort</a>
+        <!-- Collapsible Remaining Testimonials -->
+        <div class="collapse" id="moreTestimonials">
+            <div class="row g-4 mb-4">
+                <div class="col-md-6">
+                    <div class="testimonial-card h-100"
+                        style="background: rgba(255, 123, 37, 0.05); border: 1px solid #FF7B25;">
+                        <p class="fst-italic mb-3">"It was a truly valuable experience getting to know like-minded folks
+                            and
+                            finding a community rooted in exploring a multifaceted life. I found the tools to be very
+                            helpful in organizing my goals and managing all my interests without getting overwhelmed.
+                            The
+                            impact of the exercises will definitely last beyond the duration of the workshop and I
+                            recommend
+                            it as a stepping stone to anyone looking to explore the polypath life!"</p>
+                        <h5 class="text-poly-secondary mb-0">Tanvi Gupta</h5>
+                        <small class="opacity-75">Engineering manager | Cloud Chef | Data researcher | Tango
+                            artist</small>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="testimonial-card h-100"
+                        style="background: rgba(255, 123, 37, 0.05); border: 1px solid #FF7B25;">
+                        <p class="fst-italic mb-3">"I was attracted to this program because of its unique design for
+                            folks
+                            like me. The workbooks and exercises were very helpful in thinking about my life in a more
+                            holistic way. The group created a supportive space for open and honest discussions about our
+                            struggles. The program helped me be more intentional about time allocation and identifying
+                            precise goals for each of my paths. This cohort is for anyone who wants to be more
+                            intentional
+                            about juggling all of their passions."</p>
+                        <h5 class="text-poly-secondary mb-0">Saurabh Kumar</h5>
+                        <small class="opacity-75">Research Scientist, Google Deepmind | Performing artist –
+                            Tabla</small>
+                    </div>
                 </div>
 
-                <p class="text-poly-secondary fs-5 mb-3">Tentative cohorts for 2026:</p>
-                
-                <div class="text-start d-inline-block">
-                    <ul class="list-unstyled mb-0" style="line-height: 2;">
-                        <li><span class="text-poly-primary">●</span> <strong>Creative tech moms:</strong> Jan-Feb 2026</li>
-                        <li><span class="text-poly-primary">●</span> <strong>Musician techies:</strong> March-April 2026</li>
-                        <li><span class="text-poly-primary">●</span> <strong>Artistic founder dads:</strong> May-June 2026</li>
-                        <li><span class="text-poly-primary">●</span> <strong>Creative tech moms:</strong> July-August 2026</li>
-                        <li><span class="text-poly-primary">●</span> <strong>Mixed multifaceted:</strong> September-October 2026</li>
+                <div class="col-md-6">
+                    <div class="testimonial-card h-100"
+                        style="background: rgba(26, 115, 232, 0.1); border: 1px solid #1A73E8;">
+                        <p class="fst-italic mb-3">"When I heard Apoorvaa's talk, I immediately connected with the
+                            PolyPath
+                            approach and knew that this program was a must-do for me. The sessions were incredibly
+                            insightful and really exercised my brain. I especially loved the visual frameworks we used
+                            to
+                            get a clear picture of where I am and where I want to go. Hearing from others in different
+                            phases of life gave me so much hope for the future. I now have the tools to focus my energy
+                            and
+                            reduce the resistance I feel when pursuing my goals. I would recommend this to anyone who is
+                            a
+                            high-achiever and wants to find a way to integrate all their different passions, especially
+                            as
+                            they navigate the different phases of life."</p>
+                        <h5 class="text-poly-secondary mb-0">Monica Shete</h5>
+                        <small class="opacity-75">Networking engineer, Microsoft | Illustration artist | Fitness
+                            enthusiast</small>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="testimonial-card h-100"
+                        style="background: rgba(26, 115, 232, 0.1); border: 1px solid #1A73E8;">
+                        <p class="fst-italic mb-3">"Hearing how other creative tech moms navigate similar challenges and
+                            the
+                            connections has a lasting impact on me. I realized that my med-tech career, motherhood, and
+                            passion for dance are all vital expressions of my 'distributed identity.' The cohort's
+                            frameworks helped me stop overthinking the 'mindless chores' and actually execute on the
+                            things
+                            that make me feel fulfilled, like finally joining the Kuchipudi dance class. I learned tools
+                            to
+                            make time for what I want by being intentional."</p>
+                        <h5 class="text-poly-secondary mb-0">Sravya Jangareddy</h5>
+                        <small class="opacity-75">MedTech Researcher, J&J | Dancer | Mom to toddler</small>
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="testimonial-card h-100"
+                        style="background: rgba(255, 123, 37, 0.05); border: 1px solid #FF7B25;">
+                        <p class="fst-italic mb-3">"When Apoorvaa first told me about this cohort, I was immediately
+                            sold on
+                            the concept; I was looking to design a life that integrates my tech and music and the cohort
+                            helped me do exactly that. I loved the frameworks and analogies in each session. The visual
+                            tools especially stood out to me, and they made it seamless to do the exercises. The
+                            discussions
+                            with my cohort were super interesting, I especially remember the Rebuild session where my
+                            fellow
+                            participant's challenges were completely relatable and applicable for me! Overall, I learnt
+                            a
+                            lot from the cohort and I will definitely apply it to my day-to-day going forward."</p>
+                        <h5 class="text-poly-secondary mb-0">Anand Bhoraskar</h5>
+                        <small class="opacity-75">ML SWE | Musician | Partner</small>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="testimonial-card h-100"
+                        style="background: rgba(255, 123, 37, 0.05); border: 1px solid #FF7B25;">
+                        <p class="fst-italic mb-3">"One of my main learnings was realizing the fundamental philosophy
+                            and
+                            value of why I pursue the things I do. I learnt many helpful mindset shifts to think about
+                            my
+                            life differently. With the tools and frameworks that we discussed, I feel more equipped to
+                            handle all my paths. Plus, I felt really connected across my different paths, and ultimately
+                            to
+                            who I am!"</p>
+                        <h5 class="text-poly-secondary mb-0">Hari</h5>
+                        <small class="opacity-75">Hardware engineer, Nvidia | Performing artist – Mridangam |
+                            Photographer</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Read More Button -->
+        <div class="text-center my-4">
+            <button class="btn btn-outline-light px-4 py-2 rounded-pill fw-bold" type="button" data-bs-toggle="collapse"
+                data-bs-target="#moreTestimonials" aria-expanded="false" aria-controls="moreTestimonials"
+                id="readMoreTestimonialsBtn"
+                style="border-color: rgba(255, 255, 255, 0.3); font-size: 0.95rem; transition: all 0.2s ease;">
+                Read More Stories ▾
+            </button>
+        </div>
+
+        <!-- Peek Into the Sessions Subtitle & Photos -->
+        <div class="text-center mt-5 mb-4">
+            <h3 class="font-accent fw-bold text-poly-secondary" style="font-size: 1.8rem;">A Sneak Peek Into the
+                Sessions</h3>
+        </div>
+
+        <div class="row g-4 justify-content-center">
+            <div class="col-md-5">
+                <img src="./img/PP-moms-website.png" alt="Moms Cohort" class="img-fluid-custom shadow">
+            </div>
+            <div class="col-md-5">
+                <img src="./img/PolyPaths-Cohort-1.png" alt="Cohort Group 1" class="img-fluid-custom shadow">
+            </div>
+            <div class="col-md-5">
+                <img src="./img/cohort-2.jpg" alt="Cohort Group 2" class="img-fluid-custom shadow">
+            </div>
+        </div>
+    </section>
+
+    <style>
+        /* Adjusting the card height for the grid layout */
+        .testimonial-card {
+            background: rgb(74 95 159 / 15%);
+            /* Slightly more subtle background */
+            border: 1px solid #4a5f9f4d;
+            border-radius: 1rem;
+            padding: 1.5rem;
+            color: #fff;
+            height: auto !important;
+            /* Allow cards to resize based on content */
+            transition: transform 0.3s ease;
+        }
+
+        .testimonial-card:hover {
+            transform: translateY(-5px);
+            background: rgb(74 95 159 / 25%);
+        }
+    </style>
+
+    <hr class="border-dark my-2" id="divederline">
+
+    <!-- ============ WHO THIS IS FOR ============ -->
+    <section class="container py-5">
+        <div class="text-center mb-5">
+            <h2 class="font-accent fw-bold text-poly-secondary" style="font-size: 2.2rem;">Is This for You?</h2>
+            <p class="text-light opacity-75 mx-auto" style="max-width: 600px; font-size: 1.05rem;">
+                The final check before you apply.
+            </p>
+        </div>
+
+        <div class="row g-4 justify-content-center">
+            <div class="col-lg-6 col-md-6">
+                <div class="fit-card fit-yes h-100">
+                    <h3 class="fit-title mb-4">
+                        <span>✓</span> This is for you if —
+                    </h3>
+                    <ul class="fit-list">
+                        <li>You are a mom with a demanding career but you take your creative pursuit seriously.
+                        </li>
+                        <li>You don't want to lose touch with yourself and just let life happen.</li>
+                        <li>You want real tools and honest discussions with others like you.</li>
+                        <li>You're ready to invest in yourself to create a life you love.</li>
                     </ul>
                 </div>
+            </div>
 
-                <p class="mt-4 fst-italic text-light opacity-75">I look forward to meeting you soon in an upcoming cohort.</p>
-                
-                <p class="fw-bold mt-3 font-accent" style="color: #F8D783;">
-                    Till then and always, be your magnificent multifaceted self!
-                </p>
+            <div class="col-lg-6 col-md-6">
+                <div class="fit-card fit-no h-100">
+                    <h3 class="fit-title-no mb-4">
+                        <span>✕</span> This isn't for you if —
+                    </h3>
+                    <ul class="fit-list-no">
+                        <li>You're looking for a quick fix with no reflection required.</li>
+                        <li>You're not ready to be open and honest in a small group setting.</li>
+                        <li>You're more or less surviving, and don't feel the need to thrive.</li>
+                        <li>You believe that you will get back to things when life settles down.</li>
+                    </ul>
+                </div>
             </div>
         </div>
-    </div>
-</section>
+    </section>
+
+    <style>
+        .fit-card {
+            border-radius: 18px;
+            padding: 36px 32px;
+            height: 100%;
+            transition: transform 0.2s ease;
+        }
+
+        .fit-yes {
+            background: linear-gradient(160deg, rgba(255, 123, 37, 0.08), rgba(248, 215, 131, 0.04));
+            border: 1.5px solid rgba(255, 123, 37, 0.35);
+        }
+
+        .fit-no {
+            background: rgba(120, 130, 155, 0.06);
+            border: 1.5px solid rgba(136, 144, 172, 0.25);
+        }
+
+        .fit-title {
+            font-family: var(--font-accent);
+            font-size: 1.35rem;
+            font-weight: 700;
+            color: #FF7B25;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .fit-title-no {
+            font-family: var(--font-accent);
+            font-size: 1.35rem;
+            font-weight: 700;
+            color: #8890AC;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .fit-list,
+        .fit-list-no {
+            margin: 0;
+            padding: 0;
+            list-style: none;
+        }
+
+        .fit-list li {
+            margin-bottom: 16px;
+            padding-left: 28px;
+            position: relative;
+            font-size: 1rem;
+            line-height: 1.6;
+            color: #f8f9fa;
+        }
+
+        .fit-list li::before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: #F8D783;
+            font-weight: 700;
+            font-size: 1.1rem;
+        }
+
+        .fit-list-no li {
+            margin-bottom: 16px;
+            padding-left: 28px;
+            position: relative;
+            font-size: 1rem;
+            line-height: 1.6;
+            color: #8890AC;
+        }
+
+        .fit-list-no li::before {
+            content: "✕";
+            position: absolute;
+            left: 0;
+            color: #8890AC;
+            font-weight: 700;
+            font-size: 1rem;
+        }
+
+        .community-btn {
+            transition: transform 0.2s ease, opacity 0.2s ease, box-shadow 0.2s ease;
+        }
+
+        .community-btn:hover {
+            opacity: 0.92;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(0, 0, 0, 0.4);
+            color: #fff;
+        }
+
+        @media (max-width: 768px) {
+            .fit-card {
+                padding: 24px 20px;
+            }
+        }
+    </style>
+
+    <hr class="border-dark my-2" id="divederline">
+
+    <!-- ============ APPLY & SIGN-OFF ============ -->
+    <section id="apply" class="container py-5 text-center">
+        <!-- Apply Button -->
+        <div class="mb-5">
+            <a href="https://thepolypaths.fillout.com/cohort-waitlist" target="_blank"
+                class="btn btn-poly btn-lg px-5 py-3 fs-4 shadow">
+                Apply for the Cohort
+            </a>
+        </div>
+
+        <!-- Sign-off Note -->
+        <div class="my-5">
+            <p class="fst-italic text-light opacity-75 fs-5 mb-2">
+                I look forward to meeting you soon in an upcoming cohort.
+            </p>
+            <p class="fw-bold font-accent fs-3" style="color: #F8D783;">
+                Till then and always, be your magnificent multifaceted self!
+            </p>
+        </div>
+
+        <!-- Social & Community Buttons -->
+        <div class="d-flex flex-wrap justify-content-center align-items-center gap-3 mt-4">
+            <a href="https://apoorvaadeshpande.substack.com/" target="_blank"
+                class="btn px-4 py-2 text-white community-btn"
+                style="background-color: #FF7B25; border-radius: 50px; font-weight: 700;">
+                <span>📬</span> Join 1,200+ Readers on Substack
+            </a>
+            <a href="https://www.instagram.com/the.polypaths/" target="_blank"
+                class="btn px-4 py-2 text-white community-btn"
+                style="background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%); border-radius: 50px; font-weight: 700;">
+                <span>📸</span> Follow us on Instagram
+            </a>
+            <a href="https://www.linkedin.com/in/apoorvaa-deshpande/" target="_blank"
+                class="btn px-4 py-2 text-white community-btn"
+                style="background-color: #0A66C2; border-radius: 50px; font-weight: 700;">
+                <span>💼</span> Connect on LinkedIn
+            </a>
+        </div>
+    </section>
 
     <!-- FOOTER -->
     <footer class="text-center py-4 mt-5">
@@ -633,6 +1239,20 @@
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
 
+    <script>
+        document.addEventListener('DOMContentLoaded', function () {
+            const moreTesti = document.getElementById('moreTestimonials');
+            const readBtn = document.getElementById('readMoreTestimonialsBtn');
+            if (moreTesti && readBtn) {
+                moreTesti.addEventListener('show.bs.collapse', function () {
+                    readBtn.textContent = 'Show Less ▴';
+                });
+                moreTesti.addEventListener('hide.bs.collapse', function () {
+                    readBtn.textContent = 'Read More Stories ▾';
+                });
+            }
+        });
+    </script>
 </body>
 
 </html>
